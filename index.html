@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <!-- Title -->
+    <title>WarTopia.eu | Úvod</title>
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Discord messages link (SEO)-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="og:image" content="https://upload.hicoria.com/files/8TXRsSdB.png">
+    <meta name="og:description" content="Minecraft server WarTopia.eu">
+    <meta name="theme-color" content="#e3d236">
+    <!-- UTF-8 -->
+    <meta charset="utf-8">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="https://upload.hicoria.com/files/8TXRsSdB.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Css file import -->
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- Fonts awesome -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+       
+        padding: 2rem 0;
+    }
+
+    header>.container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header>.container .logo {
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+
+    header>.container nav a:not(.btn) {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        margin-right: 1rem;
+    }
+
+    header>.container nav a:not(.btn):hover {
+        text-decoration: underline;
+    }
+
+    header>.container nav a.btn {
+        background-color: white;
+        border-radius: 50px;
+
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: all 0.2s ease;
+    }
+
+    header>.container nav a.btn:hover {
+        background-color: #eee;
+    }
+
+    .menu-icon {
+        font-size: 28px;
+        color: white;
+    }
+
+    @media screen and (max-width: 450px) {
+        .menu-icon {
+            display: block;
+        }
+
+        .links {
+            display: none !important;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 2rem;
+            top: 100px;
+            left: 0;
+            right: 0;
+
+
+        }
+
+        .links.visible {
+            display: flex !important;
+        }
+
+        .links a {
+            margin-top: 1rem;
+        }
+    }
+
+    @media screen and (min-width: 451px) {
+        .menu-icon {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+    <!--                  -->
+    <!-- NAVIGATION ON TOP-->
+    <!--                  -->
+    <header>
+        <div class="container">
+            <div class="logo">Logo</div>
+            <nav class="links" id="links">
+                <a href="#">První odkaz</a>
+                <a href="#">Druhý odkaz</a>
+                <a href="#" class="btn">Třetí odkaz</a>
+            </nav>
+            <div class="menu-icon" onclick="document.getElementById('links').classList.toggle('visible')">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!--                   -->
+    <!-- TEXT ON LEFT SIDE -->
+    <!--                   -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 style="color:#f5f5f5">Wartopia.eu</h2>
+                    <p style="color:#f5f5f5">Poměrně nový server, ale i tak vám nabízí plno možností. Na našem serveru
+                        můžete najít minihry jako například: Vannila, Survival Future či KnockBackFFA</p>
+                </div>
+            </div>
+        </div>
+        <!--                  -->
+        <!--     WAVES       -->
+        <!--                  -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,32L48,53.3C96,75,192,117,288,138.7C384,160,480,160,576,149.3C672,139,768,117,864,138.7C960,160,1056,224,1152,208C1248,192,1344,96,1392,48L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!--          -->
+    <!-- Priority -->
+    <!--          -->
+    <div class="container">
+        <div class="row textgray center">
+            <div class="feature-box col-lg-4">
+                <i class="fas fa-server fa-4x main-f-color" style="margin-top: 5%; margin-left: 115px;"></i>
+                <br>
+                <br>
+                <h3 class="textblack" style="margin-left: 60px;">Silné servery</h3>
+                <p class="descbox textgray">Naši síť provozujeme na vysokorychlostních serverech a díky nim si můžete
+                    užít herní zážitek naplno.</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="fas fa-terminal fa-4x main-f-color" style="margin-top: 5%; margin-left: 115px;"></i>
+                <br>
+                <br>
+                <h3 class="textblack" style="margin-left: 100px;">Nábory</h3>
+                <p class="descbox textgray">Chceš být součástí našeho projektu? Výborně na našem serveru pořádáme často
+                    nábory do teamu.</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="fas fa-heart fa-4x main-f-color" style="margin-top: 5%; margin-left: 115px;"></i>
+                <br>
+                <br>
+                <h3 class="textblack" style="margin-left: 80px;">Admin Tým</h3>
+                <p class="descbox textgray">Máme tým administrátorů kteří se o vás postarají v případě pomoci.</p>
+            </div>
+        </div>
+    </div>
+    <!--             -->
+    <!-- Vote        -->
+    <!--             -->
+    <br>
+    <br>
+    <br>
+
+
+    <div class="container">
+        <div class="feature-box col-lg-4-center">
+            <center>
+                <h1>Kde můžeš hlasovat?</h1>
+            </center>
+            <br>
+            <center>
+                <p>Pokud by jsi si náš server oblíbil velice <br> bychom ocenili hlasování na uvedených <br> stránkách
+                    dole. Za hlasování dostanete <br> odměnu na serveru.</p>
+            </center>
+        </div>
+    </div>
+    <br>
+    <section style="padding-bottom: 5rem;">
+        <!-- Cards -->
+        <div class="container mx-auto">
+            <div class="card-deck mx-auto">
+                <div class="row mx-auto">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgs/craftlist.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Craft-List</h5>
+                            <p class="card-text">Pokud by jsi chtěl hlasovat tak můžeš zde!</p>
+                            <a href="https://craftlist.org/wartopia-eu" class="btn btn-success"
+                                target="_blank">Odkaz</a>
+                        </div>
+                    </div>
+                    <!-- End of first card-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgs/czechcraft.jpg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Czech-Craft</h5>
+                            <p class="card-text">Pokud by jsi chtěl hlasovat tak můžeš zde!</p>
+                            <a href="https://czech-craft.eu/server/wartopia/" class="btn btn-success"
+                                target="_blank">Odkaz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of cards -->
+    <center>
+        <h1>Nábory</h1>
+    </center>
+    <br>
+    <center>
+        <p>Chceš být součástí projektu? Super dole máš odkazy na jednotlivé pozice na našem serveru.</p>
+    </center>
+    <br>
+    <section style="padding-bottom: 5rem;">
+        <div id="down">
+            <div class="container mx-auto">
+                <div class="card-deck mx-auto">
+                    <div class="row mx-auto">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/minecraft-building-ideas.jpg" class="card-img-top" alt="Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Builder</h5>
+                                <p class="card-text">Chceš se stát builderem na našem serveru? Stačí vyplnit formulář po
+                                    kliknutí tlačítka.</p>
+                                <a href="https://forms.gle/31AudvJgBFMCTKja8" class="btn btn-info"
+                                    target="_blank">Odkaz</a>
+                            </div>
+                        </div>
+                        <!-- End of first card-->
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/171177.jpg" class="card-img-top" alt="Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Helper</h5>
+                                <p class="card-text">Chceš se stát builderem na našem serveru? Stačí vyplnit formulář po
+                                    kliknutí tlačítka.</p>
+                                <a href="https://forms.gle/Sye2fEemP8z8kuSk8" class="btn btn-info"
+                                    target="_blank">Odkaz</a>
+                            </div>
+                        </div>
+                        <!-- End of second card -->
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/minecraft-wallpaper.jpg.webp" class="card-img-top" alt="Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Tester</h5>
+                                <p class="card-text">Chceš se stát testerem na našem serveru? Stačí vyplnit formulář po
+                                    kliknutí tlačítka.</p>
+                                <a href="https://discord.gg/CBxrSzPgTW" class="btn btn-info" target="_blank">Odkaz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+
+    <!--                  -->
+    <!-- Footer           -->
+    <!--                  -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/wartopianetwork/"
+                    role="button" target="_blank"><i class="fab fa-instagram"></i></a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://discord.gg/SxrCyZBvqk" role="button"
+                    target="_blank"><i class="fab fa-discord"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="https://discord.gg/SxrCyZBvqk">WarTopia.eu - Všechna práva vyhrazena</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Bootstrap -->
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

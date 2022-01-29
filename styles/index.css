@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@900&display=swap');
+html {
+    background-color: white;
+    font-family: 'Livvic', sans-serif;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  margin:0;
+	padding:0;
+	box-sizing: inherit;
+}
+  body {
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;align-items: center;
+  }
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar {
+    padding: 20px 0;
+}
+.navbar-brand {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.banner {
+    position: relative;
+    background: url('../imgs/banner.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+.banner > svg {
+  display: block;
+}
+
+.banner h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+.banner p {
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Livvic', sans-serif;
+}
+
+
+
+/* Cards */
